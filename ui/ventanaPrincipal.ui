@@ -46,10 +46,6 @@ QPushButton{
   background-color: #AA14F0;
   border-radius: 24px;
   border-style: none;
-  box-sizing: border-box;
-  fill: currentcolor;
-  font-size: 18px;
-  font-weight: 500;
   height: 48px;
 }
 </string>
@@ -58,8 +54,20 @@ QPushButton{
    <layout class="QGridLayout" name="gridLayout_2">
     <item row="0" column="0">
      <widget class="QTabWidget" name="tabWidget">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>0</height>
+       </size>
+      </property>
       <property name="currentIndex">
        <number>0</number>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>16</width>
+        <height>16</height>
+       </size>
       </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
@@ -320,9 +328,7 @@ border: 1px solid rgb(0, 0, 0);</string>
                 <widget class="QPushButton" name="convertirPrincipal">
                  <property name="font">
                   <font>
-                   <pointsize>-1</pointsize>
-                   <weight>62</weight>
-                   <bold>true</bold>
+                   <pointsize>14</pointsize>
                   </font>
                  </property>
                  <property name="text">
@@ -411,8 +417,8 @@ border: 1px solid rgb(0, 0, 0);</string>
                </property>
                <property name="font">
                 <font>
-                 <pointsize>-1</pointsize>
-                 <weight>62</weight>
+                 <pointsize>14</pointsize>
+                 <weight>75</weight>
                  <bold>true</bold>
                 </font>
                </property>
@@ -484,9 +490,7 @@ border: 1px solid rgb(0, 0, 0);</string>
              <widget class="QPushButton" name="costeFechMostrar">
               <property name="font">
                <font>
-                <pointsize>-1</pointsize>
-                <weight>62</weight>
-                <bold>true</bold>
+                <pointsize>18</pointsize>
                </font>
               </property>
               <property name="text">

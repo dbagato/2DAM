@@ -47,10 +47,6 @@ class Ui_MainWindow(object):
 "  background-color: #AA14F0;\n"
 "  border-radius: 24px;\n"
 "  border-style: none;\n"
-"  box-sizing: border-box;\n"
-"  fill: currentcolor;\n"
-"  font-size: 18px;\n"
-"  font-weight: 500;\n"
 "  height: 48px;\n"
 "}\n"
 "")
@@ -59,6 +55,8 @@ class Ui_MainWindow(object):
         self.gridLayout_2 = QtWidgets.QGridLayout(self.centralwidget)
         self.gridLayout_2.setObjectName("gridLayout_2")
         self.tabWidget = QtWidgets.QTabWidget(self.centralwidget)
+        self.tabWidget.setMinimumSize(QtCore.QSize(0, 0))
+        self.tabWidget.setIconSize(QtCore.QSize(16, 16))
         self.tabWidget.setObjectName("tabWidget")
         self.tab = QtWidgets.QWidget()
         self.tab.setObjectName("tab")
@@ -166,9 +164,7 @@ class Ui_MainWindow(object):
         self.gridLayout_10.setObjectName("gridLayout_10")
         self.convertirPrincipal = QtWidgets.QPushButton(self.detalles_3)
         font = QtGui.QFont()
-        font.setPointSize(-1)
-        font.setBold(True)
-        font.setWeight(62)
+        font.setPointSize(14)
         self.convertirPrincipal.setFont(font)
         self.convertirPrincipal.setObjectName("convertirPrincipal")
         self.gridLayout_10.addWidget(self.convertirPrincipal, 0, 0, 1, 1)
@@ -209,9 +205,9 @@ class Ui_MainWindow(object):
         self.costeMostrar = QtWidgets.QPushButton(self.costeButtons)
         self.costeMostrar.setMinimumSize(QtCore.QSize(200, 50))
         font = QtGui.QFont()
-        font.setPointSize(-1)
+        font.setPointSize(14)
         font.setBold(True)
-        font.setWeight(62)
+        font.setWeight(75)
         self.costeMostrar.setFont(font)
         self.costeMostrar.setObjectName("costeMostrar")
         self.horizontalLayout_11.addWidget(self.costeMostrar)
@@ -247,9 +243,7 @@ class Ui_MainWindow(object):
         self.gridLayout_3.addWidget(self.costeFech, 1, 0, 1, 1)
         self.costeFechMostrar = QtWidgets.QPushButton(self.layoutWidget_7)
         font = QtGui.QFont()
-        font.setPointSize(-1)
-        font.setBold(True)
-        font.setWeight(62)
+        font.setPointSize(18)
         self.costeFechMostrar.setFont(font)
         self.costeFechMostrar.setObjectName("costeFechMostrar")
         self.gridLayout_3.addWidget(self.costeFechMostrar, 2, 1, 1, 1)
