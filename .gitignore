@@ -1,2 +1,5 @@
 # Ignora los archivos relacionados a API keys asd
 .env
+.currency-exchange-log
+.qt_for_python
+__pycache__
