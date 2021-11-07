@@ -15,8 +15,41 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(876, 631)
-        MainWindow.setStyleSheet("\n"
-"")
+        MainWindow.setStyleSheet("QMainWindow {background-color: #AA14F0;\n"
+"}\n"
+"QWidget {border-color:black}\n"
+"#tab {\n"
+"    background-color: rgb(188, 140, 242);\n"
+"}\n"
+"#tab_2 {\n"
+"    background-color: rgb(188, 140, 242);\n"
+"}\n"
+"#tab_3 {\n"
+"    background-color: rgb(188, 140, 242);\n"
+"}\n"
+"#tab_4 {\n"
+"    background-color: rgb(188, 140, 242);\n"
+"}\n"
+"#costeFechFecha {\n"
+"  font-size:24px\n"
+"}\n"
+"QComboBox {\n"
+"font-size:24px\n"
+"}\n"
+"#cambioDinero {font-size:24px;\n"
+"background-color: rgb(238, 238, 238);\n"
+"}\n"
+"#conversorDinero {font-size:24px;\n"
+"background-color: rgb(238, 238, 238);\n"
+"}\n"
+"QListWidget {background-color: rgb(238, 238, 238);\n"
+"}\n"
+"QPushButton {\n"
+"  background-color: #AA14F0;\n"
+"  border-radius: 24px;\n"
+"  border-style: none;\n"
+"  height: 48px;\n"
+"}")
         self.centralwidget = QtWidgets.QWidget(MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.gridLayout_2 = QtWidgets.QGridLayout(self.centralwidget)
