@@ -155,13 +155,15 @@ class Datos():
 # Metodos de la clase
     #cargaremos las variables del fichero .env a las variables locales para el uso    
     def cargarEnv(self,ruta_Fichero):
-        f=open(ruta_Fichero,"r")
         try:
+            f=open(ruta_Fichero,"r")
             filas=f.readlines()
             nameIndex=filas[0].find("=")+1
             self.appName=filas[0][nameIndex:]
             keyIndex=filas[1].find("=")+1
-            self.apiKey=filas[1][keyIndex:]  
+            self.apiKey=filas[1][keyIndex:]
+        except:
+            logging.error("Clase Datos - No se encontro el archivo .env")  
         finally:
             f.close()
 # --------------------------------------------------------------------------------- 
