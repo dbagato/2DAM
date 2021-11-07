@@ -14,40 +14,7 @@
    <string>MainWindow</string>
   </property>
   <property name="styleSheet">
-   <string notr="true">QMainWindow{background-color: #AA14F0;
-}
-QWidget{border-color:black}
-#tab{
-	background-color: rgb(188, 140, 242);
-}
-#tab_2{
-	background-color: rgb(188, 140, 242);
-}
-#tab_3{
-	background-color: rgb(188, 140, 242);
-}
-#tab_4{
-	background-color: rgb(188, 140, 242);
-}
-#costeFechFecha{font-size:24px
-}
-QComboBox{
-font-size:24px
-}
-#cambioDinero{font-size:24px;
-background-color: rgb(238, 238, 238);
-}
-#conversorDinero{font-size:24px;
-background-color: rgb(238, 238, 238);
-}
-QListWidget{background-color: rgb(238, 238, 238);
-}
-QPushButton{
-  background-color: #AA14F0;
-  border-radius: 24px;
-  border-style: none;
-  height: 48px;
-}
+   <string notr="true">
 </string>
   </property>
   <widget class="QWidget" name="centralwidget">

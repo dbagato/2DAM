@@ -251,6 +251,7 @@ class Datos():
 # --------------------------------------------------------------------------------- 
 if __name__=="__main__":
     app=QApplication(sys.argv)
+    app.setStyleSheet(open("styles.qss", "r").read())
     gui = Ventana()
     gui.show()
     sys.exit(app.exec())
