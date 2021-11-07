@@ -3,3 +3,5 @@
 .currency-exchange-log
 .qt_for_python
 __pycache__
+build
+dist
